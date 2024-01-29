@@ -8,7 +8,7 @@
 #include <time.h>
 
 #define BILLION     1000000000.0;
-#define TICK        10000
+#define TICK        100000
 #define CLEAR	    "\33[2K\r"
 #define LENGTH(X)   (sizeof X / sizeof X[0])
 #define ISCHR(c)    (c >= 'a' && c <= 'z')
@@ -27,7 +27,7 @@ void time_print(double tm);
 /* must be in ascending order */
 static Symbol symbols[] = {
 	/* symbol  multiplier  precision */
-	{ 's',     1,          3 }, /* first is default (if no suffix) */
+	{ 's',     1,          1 }, /* first is default (if no suffix) */
 	{ 'm',     60,         0 },
 	{ 'h',     3600,       0 },
 	{ 'd',     86400,      0 }, /* last is default (if no arguments) */

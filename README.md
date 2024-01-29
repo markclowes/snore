@@ -11,6 +11,12 @@ for the amount of time specified by the sum of their values. A visual feedback
 is given by printing the flowing of time in both ascending and descending
 order. If no arguments are given, snore pauses for 1d (one day).
 
+Sample output:
+    0d 0h 0m 3.4s | 0d 23h 59m 56.6s
+
+This fork has been modified to tick at 10Hz (instead of 100Hz) and display
+seconds with 1dp (instead of 3dp).
+
 SHORTCUTS
 
     Enter or Ctrl-j  show split time
