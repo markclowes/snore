@@ -6,7 +6,7 @@ SYNOPSIS
     snore [-v] [NUMBER[SUFFIX]...]
 
 snore pause for NUMBER seconds. SUFFIX may be 's' for seconds (default), 'm'
-for minutes, 'h' four hours or 'd' for days. Given two or more arguments, pause
+for minutes, 'h' for hours or 'd' for days. Given two or more arguments, pause
 for the amount of time specified by the sum of their values. A visual feedback
 is given by printing the flowing of time in both ascending and descending
 order. If no arguments are given, snore pauses for 1d (one day).
@@ -19,7 +19,7 @@ seconds with 1dp (instead of 3dp).
 
 SHORTCUTS
 
-    Enter or Ctrl-j  show split time
+    Enter or Ctrl-j  output the split time
 
     Ctrl-s           pause execution
 
